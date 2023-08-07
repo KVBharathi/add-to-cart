@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.bundle {
+    color: #008000;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: auto;
+  border-radius: 4px;
+}
+
+#tab-cart h2
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #686868;
+    margin: 15px 0 15px;
+}
+
+.addtocart-btn
+{
+   border: 1px solid #e5e5e5;
+    color: #fff;
+    width: 95%;
+    font-size: 20px;
+    height: 65px;
+    background: #006400;
+    margin-left: 15px;
+    margin-bottom: 22px;
+    border-radius: 7px;
+}
+.offer
+{
+    padding-right: 62px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -25px;
+}
+.end
+{
+    font-style: italic;
+    margin-left: 66%;
+    margin-top: -6px;
+}
+
+.pop
+{
+    padding-right: 62px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -32px;
+    margin-bottom: 32px;
+    color: #006400;
+}
+
+    .total
+{
+    padding-right: 13px;
+    font-weight: 100;
+    text-align: right;
+    margin-top: -38px;
+}
+
+
+
+#cart {
+  border: 1px solid #ccc;
+ border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+    width: 500px;
+    height: auto
+}
+
+#cart-items li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+/*----------------
+[responsive]
+------------------*/
+
+@media (max-width:1600px) and  (min-width:900px){
+.bundle
+    {
+        margin: 5px 0;
+    }
+
+
+}
+
+
+@media (min-width:320px) and  (max-width:720px){
+
+
+
+
+.product {
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin: 20px;
+    width: 500px;
+    height: auto
+}
+}
